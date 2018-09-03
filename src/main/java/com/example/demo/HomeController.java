@@ -13,4 +13,9 @@ public class HomeController {
 		model.addAttribute("user","krishan");
 		return "home";
 	}
+	@GetMapping(value="/test")
+	public String test(Model model) {
+		model.addAttribute("user","krishan");
+		return "test";
+	}
 }
