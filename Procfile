@@ -1,1 +1,1 @@
-web: mvn heroku:deploy
+web:heroku deploy:war
